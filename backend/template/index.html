@@ -1,0 +1,35 @@
+<!-- File: templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoSub Translator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🎙️ AutoSub Translator: English → Arabic</h1>
+
+    <div id="container">
+        <div id="video">
+            <img src="/video_feed" alt="Webcam Feed" width="400">
+        </div>
+
+        <div id="subtitle-box">
+            <div class="text-box">
+                <h3>You:</h3>
+                <p id="original">Waiting...</p>
+            </div>
+            <div class="text-box">
+                <h3>Arabic:</h3>
+                <p id="translated">Waiting...</p>
+            </div>
+        </div>
+    </div>
+
+    <button id="startButton">Start Translating</button>
+
+    <!-- Socket.IO client -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
