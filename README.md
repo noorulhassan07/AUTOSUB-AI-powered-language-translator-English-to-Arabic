@@ -11,3 +11,6 @@ pip install -r backend/requirements.txt
 python backend/main.py
 ```
 3. Visit `http://localhost:5000/` in your browser.
+
+--------------------------------------------------------
+4. Create the models directory before running the model. You should train the model before running the model.
