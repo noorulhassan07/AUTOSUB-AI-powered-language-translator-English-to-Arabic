@@ -1,0 +1,10 @@
+flask
+flask-socketio
+speechrecognition
+torch
+transformers
+datasets
+sentencepiece
+openai-whisper
+opencv-python
+pydub
